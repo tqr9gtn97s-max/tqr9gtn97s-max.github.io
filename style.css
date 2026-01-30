@@ -1,0 +1,88 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Helvetica, Arial;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+/* Gesamtes Seitenlayout */
+body {
+    background: linear-gradient(to bottom right,white,transparent), linear-gradient(to bottom left,blue,red);
+    background-size: 175% 175% ;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    border-bottom: solid 2px rgb(103, 103, 103);
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    gap: 70px; /* Abstand zwischen den Links */
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+nav a:hover {
+    color: rgb(66, 66, 66); /* Farbe beim Hover-Effekt */
+}
+
+section {
+    display: flex;
+    padding: 0 170px;
+    justify-content: center;
+}
+
+.zentriert {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+
+.normal {
+    margin: 20px;
+    padding: 10px;
+}
+img {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+    max-height: 700px;
+    max-width: 95%;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    padding: 75px 20vw;
+}
+
+.blue {
+    background: blue;
+}
+
+.red {
+    background: red;
+}
+
+.black {
+    background: black;
+}
+
+.green {
+    background: green;
+}
